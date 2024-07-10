@@ -1,0 +1,137 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+
+* {
+cursor: url(https://i7.glitter-graphics.org/pub/1872/1872017h4jl4hdo35.gif), auto !important;
+}
+
+h1 {
+font-family: 'Fredericka the Great', serif;
+}
+
+h2, h3, h4 {
+font-family: 'Emilys Candy', serif;
+font-size: 18px;
+text-align: center;
+color: black;
+}
+
+h5, h6, p, a {
+font-family: 'Life Savers', serif;
+font-weight: 800;
+color: black;
+line-height: 1.4em;
+}
+
+.profile .blurbs .section h4, a {
+color: red;
+}
+
+.heading {
+text-align: center;
+}
+
+body {
+background-image: 
+url(https://dl3.glitter-graphics.net/pub/989/989183vj99hd6tys.gif), 
+url(https://i4.glitter-graphics.org/pub/989/989194wutcp93elr.gif), 
+url(https://img.freepik.com/premium-vector/seamless-argyle-pattern-light-blue-tones-background-fabric-texture-vector-classic-geometric-ornament_334328-1098.jpg);
+background-repeat: repeat-x, repeat-x, repeat;
+background-position: top center, bottom center, center;
+background-size: 10%, 10%, auto;
+}
+
+nav, main, footer {
+border: 20px solid transparent;
+border-image: url(https://solaria.neocities.org/bits/blacklace.png) 16 round;
+background-clip: padding-box;
+margin: 10px 0px;
+}
+
+nav .top, footer {
+background-image: url(https://i4.glitter-graphics.org/pub/1205/1205004ogyntmnb2v.gif);
+background-size: 20%;
+}
+
+nav .links {
+background-color: aliceblue;
+font-weight: bold;
+text-align: center;
+}
+
+nav .links a {
+text-shadow: none;
+color: midnightblue;
+}
+
+main {
+background-image: url(https://i5.glitter-graphics.org/pub/709/709775r4xmcwsiai.jpg);
+background-size: 20%;
+}
+
+main:after {
+content: url(https://i2.glitter-graphics.org/pub/882/882762eg889ao1h8.gif);
+position: fixed;
+bottom: 8%;
+right: 8%;
+scale: 2;
+}
+
+.profile .right > div, .profile .left > div {
+background-color: white;
+border: 3px dotted gray;
+border-radius: 10px;
+padding: 8px;
+margin: 5px 0px;
+}
+
+.profile h1 {
+font-size: 30px;
+}
+
+.online {
+content: url(https://cur.glitter-graphics.net/pub/3270/3270318jkqiruzcih.png);
+width: 100%;
+}
+
+.profile .blurbs .heading,
+.profile .friends .heading,
+.profile .contact .heading,
+.profile .table-section .heading,
+.profile .blog-preview h4 {
+background-image: url(https://i1.glitter-graphics.org/pub/1544/1544681hwug9i9ril.jpg);
+background-size: 100px;
+}
+
+.details-table td:first-child {
+background-image: url(https://i1.glitter-graphics.org/pub/155/155751bts14l4gvt.gif);
+}
+
+.profile .friends .person {
+width: 95px;
+}
+
+.profile .friends .person p {
+color: red;
+}
+
+.comments-table td:first-child {
+background-image: url(https://i1.glitter-graphics.org/pub/155/155751bts14l4gvt.gif);
+}
+
+.comments-table td:last-child {
+background-color: var(--lightest-blue);
+}
+
+footer a, footer p {
+color: white;
+}
+
+footer .links li:not(:last-child)::after {
+color: white;
+}
+
+</style>
